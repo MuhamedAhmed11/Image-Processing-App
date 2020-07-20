@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(40, 40, 40);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Mixer Output to:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" colspan="2">
+      <widget class="QComboBox" name="outputComboBox">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 123, 35);
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Choose Output </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Output 1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Output 2</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Component 1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QComboBox" name="imageComboBox1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 123, 35);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Choose Image</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Image 1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Image 2</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QComboBox" name="componentComboBox1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 123, 35);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Magnitude</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Phase</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Real</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Imaginary</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Magnitude</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Magnitude_2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Phase</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Phase_2</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QSlider" name="slider1">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="tickPosition">
+        <enum>QSlider::NoTicks</enum>
+       </property>
+       <property name="tickInterval">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Component 2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="2">
+      <widget class="QComboBox" name="ImageComboBox2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 123, 35);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Choose Image</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Image 1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Image 2</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QComboBox" name="componentComboBox2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 123, 35);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Choose Component</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Magnitude</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Phase</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Real</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Imaginary</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Magnitude</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Magnitude_2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Phase</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Uni Phase_2</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QSlider" name="horizontalSlider_2">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="tickPosition">
+        <enum>QSlider::NoTicks</enum>
+       </property>
+       <property name="tickInterval">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="0" colspan="2">
+      <widget class="QPushButton" name="resultButton">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 123, 35);color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Result</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Output 1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Output 2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="PlotWidget" name="graphicsView"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="PlotWidget" name="graphicsView_2"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">pyqtgraph</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
