@@ -23,7 +23,7 @@ python main.py
 
 | Tab 1 |  
 :-------------------------------------------------------------:
-| ![Tab 1 - Browse Song ](./Captures/mainWindow.JPG)
+| ![Tab 1 ](./Captures/mainWindow.JPG)
 
 ## Second tab:
 
@@ -35,14 +35,14 @@ python main.py
 
 | Tab 2 |  
 :-------------------------------------------------------------:
-| ![Tab 1 - Browse Song ](./Captures/capture6.JPG)
+| ![mixing-images-tab](./Captures/Capture6.JPG)
 
 ## Here is some examples for mixing images
 
 |   Mixing two images with different percentages   |          Mixing two images with different percentages           |
 | :----------------------------------------------: | :-------------------------------------------------------------: |
-| ![Tab 1 - Browse Song ](./captures/Capture6.JPG) | ![Tab 2 - Spextrogram of Brwosed Song](./captures/Capture7.JPG) |
+| ![mixing-images-tab ](./Captures/Capture6.JPG) | ![mixing-images-tab](./Captures/Capture7.JPG) |
 
 |    Mixing two images both of them are 0 percentage    |                     Mixing two images both of them are 100 percentage                      |
 | :---------------------------------------------------: | :----------------------------------------------------------------------------------------: |
-| ![Tab 3 - Mixing two songs ](./captures/Capture2.JPG) | ![Tab 4 - Spectrogram for both broswed song and their mixed song](./captures/Capture4.JPG) |
+| ![mixing-images-tab](./Captures/Capture2.JPG) | ![mixing-images-tab](./Captures/Capture4.JPG) |
